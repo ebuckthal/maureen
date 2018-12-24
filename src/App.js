@@ -3,8 +3,6 @@ import React, { createContext, useContext, useState } from 'react';
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
 
-import portfolio from './portfolio.json';
-
 const SliderContext = createContext([0, () => {}]);
 
 const SliderContextProvider = props => {
