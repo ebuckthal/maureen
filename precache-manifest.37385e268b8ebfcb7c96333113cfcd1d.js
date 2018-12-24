@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/maureen/static/css/main.984ad479.chunk.css"
   },
   {
-    "revision": "fed6cfc326aab6ec275e531c8b64485b",
+    "revision": "9610a755c3106ef4b935f11f5008bcb3",
     "url": "/maureen/index.html"
   }
 ];
