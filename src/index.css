@@ -6129,6 +6129,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+input:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+::-moz-focus-outer {
+  border: 0;
+}
+
 input[type=range] {
   -webkit-appearance: none;
   width: 100%;
