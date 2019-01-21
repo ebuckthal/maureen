@@ -15,7 +15,7 @@
     "build:css": "postcss src/app.css -o src/index.css",
     "watch:css": "postcss src/app.css -o src/index.css -w",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "yarn watch:css & react-scripts start",
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
