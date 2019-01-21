@@ -2,7 +2,7 @@
   "name": "maureen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ebucktdhal.github.io/maureen",
+  "homepage": "https://ebuckthal.github.io/maureen",
   "dependencies": {
     "autoprefixer": "^9.4.3",
     "gh-pages": "^2.0.1",
