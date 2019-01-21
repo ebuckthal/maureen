@@ -1,4 +1,13 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import bg0 from './slider_scale_pos1.png';
+import bg1 from './slider_scale_pos2.png';
+import bg2 from './slider_scale_pos3.png';
+import bg3 from './slider_scale_pos4.png';
+import bg4 from './slider_scale_pos5.png';
+import bg5 from './slider_scale_pos6.png';
+import bg6 from './slider_scale_pos7.png';
+
+const bgs = [bg0, bg1, bg2, bg3, bg4, bg5, bg6];
 
 const SliderContext = createContext([0, () => {}]);
 
@@ -34,7 +43,7 @@ const SliderBackground = ({ index, visible }) => (
       backgroundSize: 'contain',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      backgroundImage: `url("/slider_scale_pos${index + 1}.png")`,
+      backgroundImage: `url(${bgs[index]})`,
     }}
   />
 );
